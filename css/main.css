@@ -1,0 +1,60 @@
+body{
+    margin: 0px;
+    padding: 0px;   
+} 
+
+.maincontainer{
+    width:90%;
+    margin: auto;
+    padding: auto;
+}
+
+.head{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.logo{
+    width: calc(100%/6 - 15px);
+}
+
+h1{
+    color: green;
+    font-size: 50px;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+    margin-left: 260px;
+    margin-right: 10px;
+    margin-top: -50px;
+}
+
+a{
+    text-decoration: none;
+    color: green;
+    font-size: 25px;
+}
+a:hover{
+    transform: scale(1.2);
+    color: blue;
+}
+
+
+.owl-carousel{
+	display: flex;
+	flex-flow: row wrap;
+	align-content: center;
+}
